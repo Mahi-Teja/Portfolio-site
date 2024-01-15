@@ -1,0 +1,57 @@
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 600px) {
+    /* Styles for extra small devices go here */
+    .hero{
+        grid-template-columns: 1fr;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav-link{
+        margin: 0;
+    }
+    .hero-left{
+        margin: 0px 1rem;
+    }
+    .intro{
+        margin: 0.1rem;
+    }
+    .intro-name{
+        font-size:3.5rem;
+    }
+    .intro-greet{
+        margin: 0 0.5rem;
+        font-size: 2rem;
+    }
+    .img{
+        width: 14rem;
+    }
+    .bg-fig{
+        width: 15rem;
+    }
+    .view-item{
+        border: 1px solid white;
+        padding: 3px;
+        border-radius: 8%;
+    }
+}
+
+/* Small Devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Styles for small devices go here */
+}
+
+/* Medium Devices (landscape tablets and small desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* Styles for medium devices go here */
+}
+
+/* Large Devices (desktops) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* Styles for large devices go here */
+}
+
+/* Extra Large Devices (large desktops and beyond) */
+@media only screen and (min-width: 1201px) {
+    /* Styles for extra-large devices go here */
+}
